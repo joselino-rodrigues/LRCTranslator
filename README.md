@@ -681,6 +681,106 @@ Please avoid committing:
 
 Use synthetic or public-domain test data whenever possible.
 
+# Copyright, Lyrics and Legal Use
+
+LRC Translator is a **software tool**, not a lyrics distribution service.
+
+The project does not provide, download, scrape, host, bundle, or redistribute copyrighted song lyrics.
+
+The application is designed to work with `.lrc` files that are already present in the user's own music library.
+
+For example, a user may have legally obtained a music recording, created a personal backup or rip where permitted by applicable law, and already possess an associated `.lrc` file. LRC Translator can process that existing file locally and create a translated version for the user's own use.
+
+## Personal and Educational Use
+
+One of the intended uses of LRC Translator is language learning.
+
+For example, a user studying English may listen to a song while seeing:
+
+```text
+[00:18.42]Is there anybody in there?
+[00:18.42]Tem alguém aí?
+```
+
+This allows the listener to associate:
+
+* pronunciation;
+* vocabulary;
+* expressions;
+* sentence structure;
+* idiomatic language;
+* and meaning
+
+while listening to the original recording.
+
+The project is intended as a **personal educational tool**, not as a means of publishing or commercially exploiting translated lyrics.
+
+## Important Copyright Notice
+
+Owning a physical CD, purchasing a digital recording, or legally obtaining a music file does **not necessarily transfer copyright ownership of the lyrics or grant unrestricted rights to reproduce or redistribute them**.
+
+Copyright laws differ between countries and may also depend on how the original music and lyric files were obtained and how they are used.
+
+Therefore:
+
+> **LRC Translator does not provide legal advice and does not grant permission to reproduce, distribute, publish, or commercially exploit copyrighted lyrics.**
+
+Users are responsible for ensuring that their use of the software and the files processed by it complies with the laws applicable to them.
+
+## What LRC Translator Does Not Do
+
+LRC Translator does not:
+
+* provide a database of copyrighted lyrics;
+* download lyrics from lyrics websites;
+* distribute copyrighted `.lrc` files;
+* include copyrighted lyrics in the source repository;
+* host translated lyrics;
+* provide a public lyrics service;
+* sell translated lyrics;
+* or intentionally facilitate public redistribution of copyrighted lyrics.
+
+The repository should contain only the software itself and appropriate test data.
+
+## Local Processing
+
+The project is designed around local processing whenever technically possible.
+
+The user's existing `.lrc` files remain on the user's own storage.
+
+The application does not need to publish those files to the project repository or to other users.
+
+If an external translation service is configured by the user, the user is responsible for understanding that service's terms, privacy policy, copyright requirements, and applicable usage restrictions.
+
+## Backup Files
+
+The automatic backup system exists solely to protect the user's own files against accidental modification.
+
+Backups are stored locally in the hidden `.backup` directory and are never intended to be included in the Git repository.
+
+Users should never commit their personal `.lrc` files, music files, backups, or other copyrighted material to the project repository.
+
+---
+
+# Educational Purpose
+
+A central motivation for this project is language learning.
+
+Listening to music in another language while simultaneously seeing the original lyrics and a translation can be a useful way to reinforce vocabulary and comprehension.
+
+For example:
+
+```text
+[01:04.20]I've been waiting all my life
+[01:04.20]Passei a vida inteira esperando
+```
+
+The objective is not to replace formal language study, but to provide an additional practical tool for learners who already listen to music in the target language.
+
+The translated line immediately below the original makes it possible to understand unfamiliar vocabulary without completely interrupting the listening experience.
+
+This project is particularly useful for users who maintain their own legally obtained music libraries and want to turn those libraries into a personal language-learning resource.
+
 ---
 
 # License
